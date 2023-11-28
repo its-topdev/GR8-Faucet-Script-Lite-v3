@@ -1,0 +1,32 @@
+body{ min-height:100vh }
+.flex-grow { flex: 1 }
+.sticky-top { top: 1em }
+
+.scrollable-menu {
+	height: auto;
+	max-height: 80vh;
+	overflow-x: hidden;
+	z-index: 1022;
+}
+.scrollable-menu::-webkit-scrollbar {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 4px       
+}    
+.scrollable-menu::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: lightgray;
+	-webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+	-moz-box-shadow: 0 0 1px rgba(255,255,255,.75);
+	box-shadow: 0 0 1px rgba(255,255,255,.75)     
+}
+
+.ref:focus{ 
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+footer { font-size: 14px;}

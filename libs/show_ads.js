@@ -1,0 +1,1 @@
+show_ads_gr8_lite=true;
